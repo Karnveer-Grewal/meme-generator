@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #711f8d, #a626d3);
+  height: 50px;
+  color: white;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header > h1 {
+  margin: 0;
+  font-size: 1.3em;
+  margin-right: auto;
+  margin-left: 5px;
+}
+
+.header > h2 {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+.header > img {
+  width: 24px;
+  height: 21px;
+}
