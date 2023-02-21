@@ -70,3 +70,8 @@ body {
   border-radius: 5px;
   height: 50px;
 }
+
+.meme--image {
+  margin-top: 20px;
+  max-width: 100%;
+}
