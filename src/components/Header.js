@@ -3,11 +3,11 @@ import trollImg from '../images/troll-face.png';
 
 const Header = () => {
   return (
-    <nav className='header'>
+    <header className='header'>
       <img src={trollImg} alt='' />
       <h1>Meme Generator</h1>
       <h2>Personal Project</h2>
-    </nav>
+    </header>
   );
 };
 
