@@ -74,6 +74,7 @@ body {
 /* Meme Styling */
 .meme {
   position: relative;
+  margin: 0 auto;
 }
 
 .meme--image {
@@ -105,4 +106,35 @@ body {
 
 .bottom {
   bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .meme--inputs > input {
+    height: 50px;
+    font-size: 1.25em;
+  }
+
+  .meme--button {
+    height: 70px;
+    font-size: 1.25em;
+  }
+
+  .meme--text {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .meme--inputs {
+    justify-content: center;
+  }
+  .meme--inputs > input {
+    width: 40%;
+  }
+
+  .meme--button {
+    width: 80.75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
